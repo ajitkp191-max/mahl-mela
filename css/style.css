@@ -33,6 +33,7 @@ h1,h2,h3,h4,h5,h6{
   font-family:'Playfair Display', serif;
   font-weight:700;
   letter-spacing:0.5px;
+  color: #000;
 }
 .container{
   max-width:var(--max-width);
@@ -165,7 +166,7 @@ h1,h2,h3,h4,h5,h6{
 .lead{
   font-size:1.05rem;
   margin-top:0.8rem;
-  color:rgba(255,255,255,0.95);
+  color: var(--blue);
   line-height:1.8;
   max-width:600px;
   text-shadow:0 1px 4px rgba(0,0,0,0.2);
@@ -194,7 +195,7 @@ h1,h2,h3,h4,h5,h6{
 
 .btn-primary{
   background:var(--gold);
-  color:#222;
+  color: var(--blue);
   box-shadow:0 4px 15px rgba(212,175,55,0.3);
 }
 
@@ -206,7 +207,7 @@ h1,h2,h3,h4,h5,h6{
 .btn-outline{
   background:transparent;
   border:2px solid rgba(255,255,255,0.9);
-  color:#fff;
+  color: var(--blue);
 }
 
 .btn-outline:hover{
